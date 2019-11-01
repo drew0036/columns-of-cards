@@ -9,6 +9,7 @@ html {
 
 body {
   background-color: #f2f2f2;
+  margin: 0;
 }
 
 .columns {
@@ -27,13 +28,14 @@ h3 {
 }
 
 img {
-  max-width: 100px;
-  display: inline-block;
+  width: 25%;
+  display: block;
   text-align: center;
+  padding: 0 auto 1.5rem;
 }
 
 p {
-  font-size:.875rem;
+  font-size: .875rem;
 }
 
 .column-1 {
@@ -74,5 +76,5 @@ p {
 }
 
 .btn:hover {
-
+  background-color: #aaa;
 }
