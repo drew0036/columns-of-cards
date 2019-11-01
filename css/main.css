@@ -1,42 +1,24 @@
 html {
   box-sizing: border-box;
-  font-family: Open Sans, sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
-img {
-  width: 100px;
-}
-
-h1 {
-  display: block;
+.btn {
+  display: inline-block;
+  vertical-align: middle;
+  border-width: 3px;
+  border-radius: 8px;
+  padding: .4em .75em .3em;
+  text-decoration: none;
+  color: #fff;
   text-align: center;
+  font-weight: normal;
 }
 
-.columns {
-display: flex;
-}
-
-.column-1 {
-background-color: #e2e2e2;
-border-left: 1px solid #000;
-}
-
-.column-2 {
-background-color: #ccc;
-border-left: 1px solid #000;
-}
-
-.column-3 {
-background-color: #aaa;
-border-left: 1px solid #000;
-}
-
-.column-4 {
-background-color: #999;
-border-left: 1px solid #000;
-border-right: 1px solid #000;
+.btn-small {
+  font-size: .875rem;
 }
